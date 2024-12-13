@@ -18,10 +18,9 @@ mingw32-gcc-g++
 ```
 Add the bin directory of your MinGW installation to your system's PATH environment variable. For example, C:\MinGW\bin.
 To check if GCC is installed correctly, open a command prompt and type:
-
-sh
-Copy code
+```
 gcc --version
+```
 You should see the version information of GCC.
 
 2. Install Visual Studio Code
@@ -32,24 +31,26 @@ Go to the Extensions view by clicking on the Extensions icon in the Activity Bar
 Search for "C/C++" and install the extension by Microsoft.
 3. Clone the Repository
 Clone this repository to your local machine using the following command:
-
-sh
-Copy code
+```
 git clone https://github.com/yourusername/student-record-system.git
-4. Open the Project in Visual Studio Code
+```
+5. Open the Project in Visual Studio Code
 Open Visual Studio Code.
 Click on File > Open Folder and select the cloned repository folder.
-5. Compile and Run the Program
+6. Compile and Run the Program
 Open the integrated terminal in VS Code by clicking on Terminal > New Terminal.
 Compile the program using GCC:
-sh
-Copy code
+```
 gcc -o student_record_system main.c
+```
+
 Run the compiled program:
-sh
-Copy code
+
+```
 ./student_record_system
-6. Using the Program
+```
+
+7. Using the Program
 You can now use the program to manage student records. The following options are available in the menu:
 
 Add Student: Add a new student record.
