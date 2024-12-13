@@ -61,8 +61,7 @@ Exit: Exit the program.
 The student records are saved in a file named students.txt in the same directory as the program. The records are loaded from this file when the program starts and saved to the file when changes are made.
 
 Example Usage
-sh
-Copy code
+#c
 Student Record System
 1. Add Student
 2. Display Students
