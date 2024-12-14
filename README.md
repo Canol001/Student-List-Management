@@ -59,7 +59,7 @@ Delete Student: Delete a student record by ID.
 Exit: Exit the program.
 ```
 
-7. Student Records Persistence
+8. Student Records Persistence
 The student records are saved in a file named students.txt in the same directory as the program. The records are loaded from this file when the program starts and saved to the file when changes are made.
 
 Example Usage
