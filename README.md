@@ -52,27 +52,31 @@ Run the compiled program:
 
 7. Using the Program
 You can now use the program to manage student records. The following options are available in the menu:
-
+```
 Add Student: Add a new student record.
 Display Students: Display all student records.
 Delete Student: Delete a student record by ID.
 Exit: Exit the program.
+```
+
 7. Student Records Persistence
 The student records are saved in a file named students.txt in the same directory as the program. The records are loaded from this file when the program starts and saved to the file when changes are made.
 
 Example Usage
-#c
+```
 Student Record System
 1. Add Student
 2. Display Students
 3. Delete Student
 4. Exit
+
 Enter your choice: 1
 Enter student ID: 1
 Enter student name: John Doe
 Enter student age: 20
 Enter student grade: A
 Student added successfully.
+
 
 Student Record System
 1. Add Student
@@ -84,4 +88,4 @@ Enter your choice: 2
 Student Records:
 ID    Name            Age   Grade
 1     John Doe        20    A
-Replace yourusername in the clone command with your actual GitHub username.
+```
